@@ -1,16 +1,89 @@
-# React + Vite
+# Dugsiiye React Exercises
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Dugsiiye React Exercises**! 🚀
 
-Currently, two official plugins are available:
+This repository contains my React practice projects and coding exercises. The goal of this repository is to improve my React skills by building small applications and completing different challenges.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📚 About
 
-## React Compiler
+This repository includes exercises covering React fundamentals such as:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* JSX
+* Components
+* Props
+* State (`useState`)
+* Event Handling
+* Conditional Rendering
+* Lists & Keys
+* Forms
+* React Hooks
+* Project-Based Practice
 
-## Expanding the ESLint configuration
+Each exercise is designed to strengthen my understanding of React and improve my problem-solving skills.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Vite
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ahmeddayah8/Dugsiiye-React-Exercises.git
+```
+
+Go to the project folder:
+
+```bash
+cd Dugsiiye-React-Exercises
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📂 Project Structure
+
+```
+Dugsiiye-React-Exercises/
+│
+├── src/
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Purpose
+
+The purpose of this repository is to:
+
+* Practice React consistently.
+* Build a strong foundation in modern React.
+* Track my learning journey.
+* Share my progress on GitHub.
+
+## 🤝 Contributions
+
+Suggestions and feedback are always welcome. Feel free to fork this repository, open an issue, or submit a pull request.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+**Created with ❤️ by Ahmed Dayah**

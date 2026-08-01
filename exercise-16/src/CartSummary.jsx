@@ -9,14 +9,16 @@ export const CartSummary = () => {
     setItems(newUpdate);
   };
 
-  const TotalItems = items.reduce(
+  const TotalPrice = items.reduce(
     (total, item) => total + item.price * item.quantity,
     0,
   );
+
+  const TotalItems = items.reduce((total, item) => total + item.quantity, 0);
   return (
     <div>
       <h1>CartSummary</h1>
-      <h3>Total Items: {TotalItems} </h3>
+
       {items.length > 0 ? (
         <>
           <ul>
@@ -27,6 +29,8 @@ export const CartSummary = () => {
               </li>
             ))}
           </ul>
+          <h3>Total Items: {TotalItems} </h3>
+          <h3>Total Price: {TotalPrice}</h3>
         </>
       ) : (
         <p>this cart is empty</p>

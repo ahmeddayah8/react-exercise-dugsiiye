@@ -1,0 +1,16 @@
+import  ContactApp  from "./ContactApp"
+import { TodoApp } from "./TodoApp"
+
+
+function App() {
+ 
+
+  return (
+    <>
+      <TodoApp />
+      <ContactApp />
+    </>
+  )
+}
+
+export default App
